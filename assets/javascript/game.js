@@ -29,7 +29,11 @@ function game (){
 	crystals.c3 = tempc3
 	crystals.c4 = tempc4
 
-	var temp2 = Math.floor((Math.random() * 120) + 19)
+	function getRandomInt(min, max) {
+		return Math.floor(Math.random() * (max-min +1)) + min
+	}
+
+	var temp2 = getRandomInt(19,120)
 	num = temp2	
 	$(".magicnumber").text(num)
 	}
