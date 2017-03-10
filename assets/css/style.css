@@ -1,19 +1,26 @@
+body {
+	background-color:#b7b9ee;
+	background-image: url("../images/clean-textile.png");
+}
 header {
 	max-width:980px;
 }
 
 h1 {
-	font-size: 32px;
+	font-size: 44px;
 	padding: 20px;
-	border: 3px solid blue;
+	border: 3px dotted #c6e2ff;
 	text-align: center;
 	margin: 20px;
 	width:100%;
+	letter-spacing:2px;
+	font-family: 'Josefin Sans', sans-serif;
 }
 
 div {
 	text-align: center;
-	border: 3px solid blue;
+	font-family: 'Gudea', sans-serif;
+	border: 3px solid #c6e2ff;
 	font-size:24px;
 	width: 980px;
 	margin:20px 20px 20px 40px
@@ -21,26 +28,31 @@ div {
 .instructions {
 	font-size:18px;
 	line-height: 27px;
+	border: 3px dotted #c6e2ff;
 	height:inherit;
+	font-family: 'Gudea', sans-serif;
 }
 
 .magicnumber, .guess{
 	padding:60px 0px 60px 0px;
 	font-size:48px;
+	width:400px;
+	margin-left:325px;
+	font-family: 'Rock Salt', cursive;
 }
 .magicnumber {
 	color:red;
+}
+.gems {
+	border:none;
 }
 .guess {
 	color:green;
 }
 
 .crystal {
-	font-size:24px;
-	background-color:blue;
-	border: blue;
-	color: white;
-	margin:20px 20px 20px 120px;
+	max-width:150px;
+	padding:20px;
 }
 
 .howgood, .howbad {
@@ -52,13 +64,13 @@ div {
 	color:white;
 }
 .howgood {
-	background-color:green;
-	border-color:green;
+	background-color:#5eb292;
+	border-color:#5eb292;
 }
 .howbad{
 	position:relative;
 	top:-80px;
 	left: 530px;
-	background-color:red;
-	border-color:red;
+	background-color:#ff435a;
+	border-color:#ff425a;
 }
